@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Marketplace</title>
+    <!-- bootstrapcss -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="./images/nav/Storefront.png" width="30" height="30" class="d-inline-block align-top" alt="logo">
+            <!-- <img src="./images/NFT Marketplace.png" width="200" height="100" class="d-inline-block align-top" alt="logo"> -->
+            NFT Marketplace
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Marketplace</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ranking</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Connect a wallet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn" href="#"> <i class="fa-regular fa-user"></i> Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- hero section -->
+    <div class="container-fluid hero-section">
+        <div class="row w-100">
+            <div class="col-md-6 hero-content">
+                <h1>Discover <br>digital art & <br>Collect NFTs</h1>
+                <p class="lead">NFT marketplace UI created with Anima for <br>
+                    Figma. Collect, buy and sell art from more <br>than 20k NFT artists.</p>
+                <button class="hero-btn btn-primary"><i class="fa-solid fa-rocket"></i> Get Started</button>
+                <div class="additional-info">
+                    <div class="numbers">
+                        <div class="row">
+                            <div class="col-4">
+                                <h3 class="font-change">240k+</h3>
+                                <h4>Total Sale</h4>
+                            </div>
+                            <div class="col-4">
+                                <h3 class="font-change">100k+</h3>
+                                <h4>Auctions</h4>
+                            </div>
+                            <div class="col-4">
+                                <h3 class="font-change">240k+</h3>
+                                <h4>Artists</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div>
+                        <h5>240k+ </h5>
+                        <p>Total Sale</p>
+                    </div>
+                    <div>
+                        <h5>100k+</h5>
+                        <p>Auctions</p>
+                    </div>
+                    <div>
+                        <h5>240k+</h5>
+                        <p>Artists</p>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <img src="./images/Highlighted NFT.png" alt="Animated" class="animated-image">
+            </div>
+        </div>
+    </div>
+    <!-- trending -->
+    <section class="trending" id="trending">
+        <div class="container">
+            <div class="title">
+                <h2>Trending Collection</h2>
+                <h4>Checkout our weekly updated trending collection.</h4>
+            </div>
+            <div class="trending-cards">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <img src="./images/Primary Photo Placeholder.png" alt="primary">
+                        <div class="row">
+                            <div class="col-4"><img src="./images/Secondary Photo Placeholder.png" alt=""></div>
+                            <div class="col-4"><img src="./images/Secondary Photo Placeholder (1).png" alt=""></div>
+                            <div class="col-4">
+                                <div class="num">
+                                    <button class="btn-trend">1025+</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h4>DSGN Animals</h4>
+                            <img src="./images/Avatar.png" alt=""> <span>MrFox</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <img src="./images/Primary Photo Placeholder (1).png" alt="primary">
+                        <div class="row">
+                            <div class="col-4"><img src="./images/Secondary Photo Placeholder (2).png" alt=""></div>
+                            <div class="col-4"><img src="./images/Secondary Photo Placeholder (3).png" alt=""></div>
+                            <div class="col-4">
+                                <div class="num">
+                                    <button class="btn-trend">1025+</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h4>Magic Mushrooms</h4>
+                            <img src="./images/Avatar (1).png" alt=""> <span>Shroomie</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <img src="./images/Primary Photo Placeholder (2).png" alt="primary">
+                        <div class="row">
+                            <div class="col-4"><img src="./images/Secondary Photo Placeholder (4).png" alt=""></div>
+                            <div class="col-4"><img src="./images/Secondary Photo Placeholder (5).png" alt=""></div>
+                            <div class="col-4">
+                                <div class="num">
+                                    <button class="btn-trend">1025+</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h4>Disco Machines</h4>
+                            <img src="./images/Avatar (2).png" alt="avatar"> <span>BeKind2Robots</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- creators -->
+    <section class="creators" id="creators">
+        <div class="container">
+            <div class="heading">
+                <div class="row">
+                    <div class="col-9">
+                        <h2>Top creators</h2>
+                        <h4>Checkout Top Rated Creators on the NFT Marketplace</h4>
+                    </div>
+                    <div class="col-3 rocket">
+                        <a href="#" class=" btn btn-trans"> <img src="./images/RocketLaunch (1).png" alt=""> View
+                            Rankings</a>
+                    </div>
+                </div>
+            </div>
+            <div class="creators-cards">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-creator">
+                            <img src="./images/Artist Avatar.png" alt="">
+                            <h4>Keepitreal</h4>
+                            <p class="font">Total Sales:</p>
+                            <p class="fontt"> 34.53 ETH</p>
+                            <div class="order">1</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-creator">
+                            <img src="./images/Artist Avatar (1).png" alt="">
+                            <h4>DigiLab</h4>
+                            <p class="font">Total Sales:</p>
+                            <p class="fontt"> 34.53 ETH</p>
+                            <div class="order">2</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-creator">
+                            <img src="./images/Artist Avatar (2).png" alt="">
+                            <h4>GravityOne</h4>
+                            <p class="font">Total Sales:</p>
+                            <p class="fontt"> 34.53 ETH</p>
+                            <div class="order">3</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-creator">
+                            <img src="./images/Artist Avatar (3).png" alt="">
+                            <h4>Juanie</h4>
+                            <p class="font">Total Sales:</p>
+                            <p class="fontt"> 34.53 ETH</p>
+                            <div class="order">4</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-creator">
+                            <img src="./images/Artist Avatar (4).png" alt="">
+                            <h4>BlueWhale</h4>
+                            <p class="font">Total Sales:</p>
+                            <p class="fontt"> 34.53 ETH</p>
+                            <div class="order">5</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-creator">
+                            <img src="./images/Artist Avatar (5).png" alt="">
+                            <h4>mr fox</h4>
+                            <p class="font">Total Sales:</p>
+                            <p class="fontt"> 34.53 ETH</p>
+                            <div class="order">6</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-creator">
+                            <img src="./images/Artist Avatar (6).png" alt="">
+                            <h4>Shroomie</h4>
+                            <p class="font">Total Sales:</p>
+                            <p class="fontt"> 34.53 ETH</p>
+                            <div class="order">7</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-creator">
+                            <img src="./images/Artist Avatar (7).png " alt="">
+                            <h4>robotica</h4>
+                            <p class="font">Total Sales:</p>
+                            <p class="fontt"> 34.53 ETH</p>
+                            <div class="order">8</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-creator">
+                            <img src="./images/Artist Avatar (8).png" alt="">
+                            <h4>RustyRobot</h4>
+                            <p class="font">Total Sales:</p>
+                            <p class="fontt"> 34.53 ETH</p>
+                            <div class="order">9</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-creator">
+                            <img src="./images/Artist Avatar (9).png" alt="">
+                            <h4>animakid</h4>
+                            <p class="font">Total Sales:</p>
+                            <p class="fontt"> 34.53 ETH</p>
+                            <div class="order">10</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-creator">
+                            <img src="./images/Artist Avatar (10).png" alt="">
+                            <h4>Dotgu</h4>
+                            <p class="font">Total Sales:</p>
+                            <p class="fontt"> 34.53 ETH</p>
+                            <div class="order">11</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-creator">
+                            <img src="./images/Artist Avatar (11).png" alt="">
+                            <h4>Ghiblier</h4>
+                            <p class="font">Total Sales:</p>
+                            <p class="fontt"> 34.53 ETH</p>
+                            <div class="order">12</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- categories -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <div class="title">
+                <h2>Browse Categories</h2>
+            </div>
+            <div class="categories-cards">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-catagory">
+                            <div class="image"><img src="./images/Photo & Icon.png" alt=""></div>
+                            <div class="text">
+                                <h4>Art</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-catagory">
+                            <div class="image"><img src="./images/Photo & Icon (1).png" alt=""></div>
+                            <div class="text">
+                                <h4>Collectibles</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-catagory">
+                            <div class="image"><img src="./images/Photo & Icon (2).png" alt=""></div>
+                            <div class="text">
+                                <h4>Music</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-catagory">
+                            <div class="image"><img src="./images/Photo & Icon (3).png" alt=""></div>
+                            <div class="text">
+                                <h4>Photography</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-catagory">
+                            <div class="image"><img src="./images/Photo & Icon (4).png" alt=""></div>
+                            <div class="text">
+                                <h4>Video</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-catagory">
+                            <div class="image"><img src="./images/Photo & Icon (5).png" alt=""></div>
+                            <div class="text">
+                                <h4>Utility</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-catagory">
+                            <div class="image"><img src="./images/Photo & Icon (6).png" alt=""></div>
+                            <div class="text">
+                                <h4>Sport</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-catagory">
+                            <div class="image"><img src="./images/Photo & Icon (7).png" alt=""></div>
+                            <div class="text">
+                                <h4>Virtual Worlds</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- NFT -->
+    <section class="discover" id="discover">
+        <div class="container">
+            <div class="heading">
+                <div class="row">
+                    <div class="col-9">
+                        <h2>Discover More NFTs</h2>
+                        <h5>Explore new trending NFTs</h5>
+                    </div>
+                    <div class="col-3 eye">
+                        <a href="#" class=" btn btn-trans"><i class="fa-solid rgb(162,89,255) fa-eye"></i> See All</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="./images/Image.png" class="card-img-top" alt="NFT Image">
+                            <div class="card-body">
+                                <h1> Distant Galaxy</h1>
+                                <img src="images/Avatar (3).png" alt="avatar3"> MoonDancer
+                                <div class="additional-info">
+                                    <span class="price">Price <br> <br>1.63 ETH</span>
+                                    <span class="highest-bid">Highest Bid <br><br>0.33 wETH</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="./images/Image (1).png" class="card-img-top" alt="NFT Image">
+                            <div class="card-body">
+                                <h1>Life On Edena</h1>
+                                <img src="images/Avatar (4).png" alt="avatar3"> NebulaKid
+                                <div class="additional-info">
+                                    <span class="price">Price <br> <br>1.63 ETH</span>
+                                    <span class="highest-bid">Highest Bid <br><br>0.33 wETH</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="./images/Image (2).png" class="card-img-top" alt="NFT Image">
+                            <div class="card-body">
+                                <h1>AstroFiction</h1>
+                                <img src="images/Avatar (5).png" alt="avatar3"> Spaceone
+                                <div class="additional-info">
+                                    <span class="price">Price <br><br>1.63 ETH</span>
+                                    <span class="highest-bid">Highest Bid <br><br>0.33 wETH</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Image Section -->
+    <section class="container-fluid p-0">
+        <img src="./images/NFT Highlight.png" alt="Full Width Image" class="full-width-image img-fluid">
+    </section>
+    <!-- works -->
+    <section class="work" id="work">
+        <div class="container">
+            <div class="sec-title">
+                <h2>How it works</h2>
+                <h5>Find out how to get started</h5>
+            </div>
+            <div class="container my-4">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="work-card">
+                            <img src="./images/Icon.png" class="card-img-icon" alt="icon">
+                            <div class="work-card-body">
+                                <h5 class="card-title">Setup Your wallet</h5>
+                                <p class="card-text">Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="work-card">
+                            <img src="./images/Icon (1).png" class="card-img-icon" alt="icon1">
+                            <div class="work-card-body">
+                                <h5 class="card-title">Create Collection</h5>
+                                <p class="card-text">Upload your work and setup your collection. Add a description, social links and floor price.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="work-card">
+                            <img src="./images/Icon (2).png" class="card-img-icon" alt="icon2">
+                            <div class="work-card-body">
+                                <h5 class="card-title">Start Earning</h5>
+                                <p class="card-text">Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- subscribe -->
+   <section class="subscribe" id="subscribe">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="subscribe-widget row">
+                    <div class="col-12 col-md-4 text-center">
+                        <img src="./images/Photo.png" alt="Subscribe Image">
+                    </div>
+                    <div class="col-12 col-md-8 content">
+                        <h2>Join our weekly <br> digest</h2>
+                        <p>Get exclusive promotions & updates <br> straight to your inbox.</p>
+                        <form class="form-inline mt-3">
+                            <div class="form-group mb-2 mr-2">
+                                <label for="email" class="sr-only">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            </div>
+                            <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!-- footer -->
+   <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <!-- NFT Marketplace Info -->
+            <div class="col-md-4">
+                <h5><img src="./images/nav/Storefront.png"
+                    width="30" height="30" class="d-inline-block align-top" alt="logo"> NFT Marketplace</h5>
+                <p>NFT marketplace UI created with Anima for Figma.</p>
+                <p>Join our community</p>
+                <div class="social-media">
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Explore -->
+            <div class="col-md-4">
+                <h5>Explore</h5>
+                <ul class="list-unstyled">
+                    <li>Marketplace</a></li>
+                    <li>Rankings</a></li>
+                    <li>Connect a wallet</a></li>
+                </ul>
+            </div>
+
+            <!-- Subscribe -->
+            <div class="col-md-4">
+                <h5>Join our weekly digest</h5>
+                <p>Get exclusive promotions & updates straight to your inbox.</p>
+                <form class="subscribe-form">
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
